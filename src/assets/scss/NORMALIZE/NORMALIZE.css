@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: block;
+    user-select: none; 
+    position: relative;
+    text-align: center;
+    color:white;
+}
+html,body{
+    overflow-x: hidden;
+}
+img{
+    pointer-events: none;
+}
+.PC{
+    
+}
+.T{
+    
+}
+.M{
+    
+}
+.as__textcenter{
+    text-align: center;
+}

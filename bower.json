@@ -1,0 +1,19 @@
+{
+  "name": "fed-boilerplate",
+  "version": "0.0.1",
+  "author": "Victor JEMAN",
+  "description": "front end prototyping setup",
+  "main": "gulpfile.js",
+  "license": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "dependencies",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.2.1"
+  },
+  "private": true
+}

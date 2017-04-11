@@ -1,0 +1,44 @@
+# Your project's server will run on localhost:xxxx at this port
+PORT: 8000
+
+# Autoprefixer will make sure your CSS works with these browsers
+COMPATIBILITY:
+  - "last 2 versions"
+  - "ie > 9"
+  - "ios > 7"
+
+UNCSS_OPTIONS:
+  html:
+    - "src/**/*.html"
+  ignore:
+    - !!js/regexp ^\.is-.*
+
+PATHS:
+
+  release: "release"
+
+  pages:
+    - "src/pages/**/*.html"
+
+  layouts:
+    - "src/{layouts,partials}/**/*.html"
+
+  assets:
+    - "src/assets/**/*"
+    - "!src/assets/{img,js,scss}/**/*"
+
+  images:
+    - "src/assets/img/**/*"
+
+  scssCustom:
+    - "src/assets/scss/**/*.scss"
+
+  scssVendor:
+    #add here scss librarie
+
+  javascriptCustom:
+    - "src/assets/js/**/*.js"
+
+  javascriptVendor:
+    - "dependencies/jquery/dist/jquery.min.js"
+
