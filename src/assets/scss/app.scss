@@ -1,6 +1,13 @@
 @charset 'utf-8';
 
-@import 'components/Copyright/copyright';
+@import 'usefull';
 
-@import 'ChildComponents/title/title';
-
+@import 'sections';
+@import 'nav';
+@import 'logo';
+@import 'button';
+@import 'input';
+@import 'hero';
+@import 'text';
+@import 'image';
+@import 'icon';

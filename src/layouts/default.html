@@ -8,7 +8,8 @@
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FED prototyping</title>
+    <title>Assist</title>
+     <script src="assets/normalize.js"></script>
     <link rel="stylesheet" href="./app.css">
   </head>
   <body>
@@ -16,33 +17,27 @@
     {{!--
       Pages you create in the src/pages/ folder are inserted here when the flattened page is created.
     --}}
-
-    <header class="page-header">
-      <p>Page header</p>
-      <ul>
-        <li><a href="./">home</a></li>
-        <li><a href="./page1.html">page1</a></li>
-        <li><a href="./page2.html">page2</a></li>
-      </ul>
-    </header>
-
-
-
-
-
-
-    <main>
+    <!--
+  <div class="as__main">
+    <header class="as__header">
+      <li class="as__header__logo"></li>
+      <li class="as__header__menu"></li>
+      <li class="as__header__input"></li>
+    </header>-->
+    <div class="navbar init0">
+      <span class="logo-header"></span>
+      <span class="menu init0"></span>
+      <span class="input-search init0"></span>
+    </div>
+      <!--<button class="as__scrollToTop"></button>-->
+    <section class="pages">
       {{> body}}
-    </main>
-
-
-
-
-
-    <footer class="page-footer">
+    </section>
+  <!--
+    <footer class="page-footer" style="display: none;">
       <p>Page footer</p>
     </footer>
-
+  </div>-->
     <script src="./vendor.js"></script>
     <script src="./app.js"></script>
   </body>
