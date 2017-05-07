@@ -1,17 +1,22 @@
 .skew-image-big{
 	width: 370px;
 	height: 190px;
-	background: white;
-	opacity: 0.7;
 	margin:15px;
 }
 .skew-image-small{
 	width: 170px;
 	height: 190px;
-	background: white;
-	opacity: 0.7;
 	margin:15px;
 }
 .skew-image{
 	transform: skewY(-11deg);
+	background-color: white;
+	opacity: 0.7;
+}
+.timeline-image{
+	height: 100px;
+	width: 100px;
+	background-color: blue;
+	opacity: 0.7;
+	margin: 15px 6px;
 }

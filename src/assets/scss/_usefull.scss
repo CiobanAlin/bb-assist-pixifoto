@@ -1,14 +1,29 @@
+$skew-break-width:1200px;
+$mobile-width:850px;
 html,body{
 	overflow-x: hidden;
 	min-width: 400px;
 }
 *{
+	text-decoration: none;
+}
+html,
+body,
+article,
+main,
+aside,
+div,
+span,
+h,
+p
+{
 	box-sizing: border-box;
 	text-decoration: none;
 	list-style-type: none;
 	border: 0;
 	margin: 0;
 	padding: 0;
+	display: block;
 	text-align: center;
 }
 .init0{
@@ -21,5 +36,14 @@ html,body{
 }
 .pages{
 max-width: 2000px;
-background-color: black;
+}
+.only-mobile{
+	@media screen and (min-width: $mobile-width) {
+		display: none;
+	}
+}
+.only-pc{
+	@media screen and (max-width: $mobile-width) {
+		display: none;
+	}
 }

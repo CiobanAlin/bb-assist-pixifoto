@@ -11,6 +11,9 @@
 	font-size:26px;
 	max-width: 750px;
 	padding-bottom: 10vh;
+	@media screen and (max-width: $mobile-width) {
+		padding-bottom: 0;
+	}
 }
 .skew-title{
 	font-size: 37px;
@@ -19,4 +22,98 @@
 .skew-text{
 	font-size: 24px;
 	max-width: 465px;
+}
+.span-title{
+	font-size: 44px;
+}
+.span-paragraph{
+	padding:  0 20px;
+	padding-top: 15px;
+	font-size:22px;
+	max-width: 762px;
+}
+.thumbnail-title{
+	max-width:165px;
+	font-size: 32px;
+}
+.iconTitles-title_big{
+	font-weight: bold;
+	text-align: left;
+	display: block;
+	font-size: 20px;
+	margin-left: 10px;
+}
+.iconTitles-title_small{
+	font-weight: bold;
+	text-align: left;
+	display: block;
+	font-size: 18px;
+}
+.iconTitles-paragraph{
+	font-weight: lighter;
+	text-align: left;
+	display: block;
+	font-size: 17px;
+	max-width: 360px;
+}
+.span-paragraph-what{
+	max-width:604px;
+}
+.thumbnail-small-title{
+	font-size: 18px;
+	font-weight: bold;
+	text-align: left;
+	padding-top: 25px;
+	padding-bottom: 14px;
+}
+.thumbnail-small-paragraph{
+	font-weight: lighter;
+	text-align: left;
+	max-width: 330px;
+	font-size: 17.5px;
+}
+.banner-title{
+	font-size: 37px;
+	font-weight: bold;
+}
+.banner-paragraph{
+	font-size: 22.5px;
+	font-weight: lighter;
+	padding-top: 16px;
+	padding-bottom: 20px;
+}
+.copyright-private-text{
+	padding-right:30px;
+}
+.small-button-paragraph{
+	padding: 0 5px;
+}
+.footer-title{
+	font-weight: bold;
+	font-size: 16px;
+	padding-bottom: 20px;
+}
+.footer-paragraph{
+	font-size: 16px;
+	font-weight: lighter;
+	padding: 5px 0;
+}
+.copyright-assist{
+	color: gray;
+}
+.copyright-text{
+	font-size: 14px;
+	padding-bottom: 4.015px;
+	padding-right: 2px;
+}
+.title-big-landing{
+	padding-top: 110px;
+}
+.timeline-title{
+	font-weight: bold;
+	text-align: left;
+}
+.timeline-paragraph{
+	font-weight: lighter;
+	text-align: left;
 }
