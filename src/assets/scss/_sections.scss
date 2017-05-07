@@ -205,6 +205,9 @@ body{
 .footer-aside-area{
 	max-width: 300px;
 	min-width: 25%;
+	@media screen and (max-width: $mobile-width) {
+		max-width: 50%;
+	}
 	display: flex;
 	flex-flow: column wrap;
 	align-items: flex-start;

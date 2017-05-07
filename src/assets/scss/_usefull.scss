@@ -26,6 +26,10 @@ p
 	display: block;
 	text-align: center;
 }
+html,
+body{
+	overflow-x: auto;
+}
 .init0{
 	top:0;
 	right:0;
@@ -36,14 +40,4 @@ p
 }
 .pages{
 max-width: 2000px;
-}
-.only-mobile{
-	@media screen and (min-width: $mobile-width) {
-		display: none;
-	}
-}
-.only-pc{
-	@media screen and (max-width: $mobile-width) {
-		display: none;
-	}
 }

@@ -117,3 +117,23 @@
 	font-weight: lighter;
 	text-align: left;
 }
+.menu-contact-text{
+	padding-bottom: 50px;
+}
+.menu-social-text{
+	color: gray;
+	font-weight: bold;
+	text-align: left;
+	transition: 0.4s;
+}
+.menu-text{
+	color:white;
+	font-weight: bold;
+	text-align: left;
+	transition: 0.4s;
+}
+.menu-text:hover,
+.menu-social-text:hover{
+	font-weight: lighter;
+	opacity: 0.9;
+}
