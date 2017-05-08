@@ -3,8 +3,8 @@
 (() => {
     'use strict';
 
-    }
-    console.log('Hello world from menu.js');
+
+
 })();
 
 /*

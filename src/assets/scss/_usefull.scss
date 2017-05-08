@@ -1,9 +1,5 @@
 $skew-break-width:1200px;
 $mobile-width:850px;
-html,body{
-	overflow-x: hidden;
-	min-width: 400px;
-}
 *{
 	text-decoration: none;
 }
@@ -25,10 +21,12 @@ p
 	padding: 0;
 	display: block;
 	text-align: center;
+	height:auto;
 }
 html,
-body{
-	overflow-x: auto;
+body,
+.pages{
+	overflow-y: visible;
 }
 .init0{
 	top:0;
