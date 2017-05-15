@@ -1,41 +1,47 @@
-$skew-break-width:1200px;
-$mobile-width:850px;
+/* variables */
+$watch:300px;
+$red:#EE3B33;
+$blue:#6E9CD2;
+$gray:#B4BDD0;
+$darkred:#E36A63;
+/* general */
 *{
-	text-decoration: none;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
 }
 html,
 body,
+.pages,
+article{
+  top:0;
+  right:0;
+  bottom:0;
+  left:0;
+  overflow-x: hidden;
+}
 article,
-main,
-aside,
-div,
 span,
 h,
-p
-{
-	box-sizing: border-box;
-	text-decoration: none;
-	list-style-type: none;
-	border: 0;
-	margin: 0;
-	padding: 0;
-	display: block;
-	text-align: center;
-	height:auto;
+p{
+  display: block;
 }
-html,
-body,
-.pages{
-	overflow-y: visible;
+
+hr{
+    width: 100%;
+    margin-top:50px;
+    margin-bottom: 20px;
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
-.init0{
-	top:0;
-	right:0;
-	bottom:0;
-	left:0;
-	margin:auto;
-	position: absolute;
-}
-.pages{
-max-width: 2000px;
-}
+/* background */
+/* width */
+/* height */
+/* padding */
+/* margin */
+/* display */
+/* justify-content W */
+/* align-items H */

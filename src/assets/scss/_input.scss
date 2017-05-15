@@ -1,7 +1,92 @@
-.input-search{
-	width: 170px;
-	height: 40px;
-	margin-bottom:0;
-	margin-right:0;
-	background-color: white;
+/* div transform into input */
+[class="input"]:empty:not(:focus):before{
+        content:attr(data-text);
+        color:darkgray;
+    }
+/* color */
+[class^="input"]{
+  color: black;
+}
+/* appearance */
+.input{
+  -moz-appearance: textfield;
+  -webkit-appearance: textfield;
+}
+/* background*/
+.input{
+  background-color: white;
+  background-color: -moz-field;
+}
+
+/* height */
+.input{
+  height: 45px;
+}
+/* width */
+.input{
+  width: 100%;
+  max-width: 380px;
+}
+
+/* margin */
+.input{
+  margin-top: 25px;
+  margin-right: -10px; /* PC */
+}
+
+/* padding */
+.input{
+  padding: 15px 18px;
+}
+
+/* border */
+.input{
+  border: 1px solid lightgray;
+}
+.input:focus {
+  border: 1px solid $darkred;
+}
+
+/* shadow */
+.input{
+  box-shadow: 0 0 5px 0 lightgray inset;
+}
+.input:focus {
+  box-shadow: 0 0 5px 0 $darkred inset;
+}
+
+/* font */
+.input{
+  font: -moz-field;
+  font: -webkit-small-control;
+}
+
+/* display */
+.input{
+  display: flex;
+}
+
+/* justify-content */
+.input{
+justify-content: flex-start;
+}
+
+/* align-items */
+.input{
+align-items: center;
+}
+
+/* resize */
+.input{
+  resize: none;
+}
+
+/* overflow */
+.input{
+  overflow: hidden;
+}
+
+/* outline */
+.input:focus {
+  outline: none;
 }

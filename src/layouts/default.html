@@ -8,108 +8,18 @@
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Assist</title>
+    <title>Assist-offices</title>
     <link rel="stylesheet" href="./app.css">
-    <!-- ICON NEEDS FONT AWESOME FOR CHEVRON UP ICON -->
-<link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
   </head>
   <body>
-
     {{!--
       Pages you create in the src/pages/ folder are inserted here when the flattened page is created.
     --}}
-    <!-- menu-area -->
-    <div id="myNav" class="overlay">
-      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">
-      <div class="overlay-content">
-        <p class="menu-x">
-          &times;
-        </p>
-        <a href="index.html">
-          <p class="menu-text">
-            Home
-          </p>
-        </a>
-        <a href="hackathons.html">
-          <p class="menu-text">
-           Hackathons
-          </p>
-        </a>
-        <a href="tech cafe.html">
-          <p class="menu-text">
-            Tech CAFE
-          </p>
-        </a>
-        <a href="our projects.html">
-          <p class="menu-text">
-            Our Projects
-          </p>
-        </a>
-        <a href="#">
-          <p class="menu-text menu-contact-text">
-            Contacts
-          </p>
-        </a>
-        <a target="_blank" href="https://www.facebook.com/assist.software.development/?fref=ts">
-          <p class="menu-social-text">
-            Facebook
-          </p>
-        </a>
-        <a target="_blank" href="https://www.instagram.com/explore/locations/966167671/assist-software/?hl=ro">
-          <p class="menu-social-text">
-            Instagram
-          </p>
-        </a>
-      </div>
-      </a>
-    </div>
-    <!-- navbar-area -->
-    <div class="navbar init0">
-      <span class="logo-header"></span>
-      <span class="menu init0" style="cursor:pointer" onclick="openNav()">&#9776;</span>
-      <span class="input-search init0"></span>
-    </div>
-    <!-- body area -->
-    <!-- scrollToTop area -->
-    <button class="scrollTop"></button>
     <section class="pages">
       {{> body}}
     </section>
     <!-- scripts -->
     <script src="./vendor.js"></script>
     <script src="./app.js"></script>
-    <!-- menu-script -->
-    <script>
-    function openNav() {
-        document.getElementById("myNav").style.width = "100%";
-    }
-
-    function closeNav() {
-        document.getElementById("myNav").style.width = "0%";
-    }
-  </script>
-  <!-- scroll-script -->
-  <script>
-  $(document).ready(function(){
-
-    $(document).on('scroll', function(){
-      var scroll=$('html');
-      var modHeight=window.innerHeight;
-    if($(this).scrollTop()> 100){
-        $('.scrollTop').fadeIn();
-      }
-      else{
-        $('.scrollTop').fadeOut();
-      }
-
-    });
-  });
-
-  //Click event to scroll to top
-  $('.scrollTop').click(function(){
-    $('html, body').animate({scrollTop : 0},'slow');
-    return false;
-  });
-  </script>
   </body>
 </html>

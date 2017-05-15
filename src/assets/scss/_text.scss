@@ -1,139 +1,46 @@
-.title-small{
-	font-size: 22px;
-	text-transform: uppercase;
+/* font-size */
+.text-steP1,
+.text-separator
+{
+  font-size: 15px;
 }
-.title-big{
-	font-size: 60px;
-	padding-top: 10px;
-	padding-bottom: 8px;
+
+/* color */
+[class^="text-steP"],
+.text-separator{
+  color:$gray;
 }
-.title-medium{
-	font-size:26px;
-	max-width: 750px;
-	padding-bottom: 10vh;
-	@media screen and (max-width: $mobile-width) {
-		padding-bottom: 0;
-	}
+
+/* padding */
+.text-separator{
+  padding: 0 10px 0 5px;
 }
-.skew-title{
-	font-size: 37px;
-	padding: 30px 0;
+.text-base-title{
+  padding-top: 30px;
+  padding-bottom: 5px;
 }
-.skew-text{
-	font-size: 24px;
-	max-width: 465px;
+.text-base-paragraph{
+  padding-top: 25px;
 }
-.span-title{
-	font-size: 44px;
+.text-results{
+  padding-top: 20px;
+  padding-bottom: 30px;
+  padding-left: 20px;
 }
-.span-paragraph{
-	padding:  0 20px;
-	padding-top: 15px;
-	font-size:22px;
-	max-width: 762px;
+.text-service{
+  padding-bottom: 30px;
 }
-.thumbnail-title{
-	max-width:165px;
-	font-size: 32px;
+.text-serviceTitle{
+  padding-left: 10px;
+  padding-top: 5px;
+  padding-bottom: 20px;
 }
-.iconTitles-title_big{
-	font-weight: bold;
-	text-align: left;
-	display: block;
-	font-size: 20px;
-	margin-left: 10px;
+.text-money{
+  padding-bottom: 22px;
+  padding-left: 10px;
 }
-.iconTitles-title_small{
-	font-weight: bold;
-	text-align: left;
-	display: block;
-	font-size: 18px;
-}
-.iconTitles-paragraph{
-	font-weight: lighter;
-	text-align: left;
-	display: block;
-	font-size: 17px;
-	max-width: 360px;
-}
-.span-paragraph-what{
-	max-width:604px;
-}
-.thumbnail-small-title{
-	font-size: 18px;
-	font-weight: bold;
-	text-align: left;
-	padding-top: 25px;
-	padding-bottom: 14px;
-}
-.thumbnail-small-paragraph{
-	font-weight: lighter;
-	text-align: left;
-	max-width: 330px;
-	font-size: 17.5px;
-}
-.banner-title{
-	font-size: 37px;
-	font-weight: bold;
-}
-.banner-paragraph{
-	font-size: 22.5px;
-	font-weight: lighter;
-	padding-top: 16px;
-	padding-bottom: 20px;
-}
-.copyright-private-text{
-	padding-right:30px;
-}
-.small-button-paragraph{
-	padding: 0 5px;
-}
-.footer-title{
-	font-weight: bold;
-	font-size: 16px;
-	padding-bottom: 20px;
-}
-.footer-paragraph{
-	font-size: 16px;
-	font-weight: lighter;
-	padding: 5px 0;
-}
-.copyright-assist{
-	color: gray;
-}
-.copyright-text{
-	font-size: 14px;
-	padding-bottom: 4.015px;
-	padding-right: 2px;
-}
-.title-big-landing{
-	padding-top: 110px;
-}
-.timeline-title{
-	font-weight: bold;
-	text-align: left;
-}
-.timeline-paragraph{
-	font-weight: lighter;
-	text-align: left;
-}
-.menu-contact-text{
-	padding-bottom: 50px;
-}
-.menu-social-text{
-	color: gray;
-	font-weight: bold;
-	text-align: left;
-	transition: 0.4s;
-}
-.menu-text{
-	color:white;
-	font-weight: bold;
-	text-align: left;
-	transition: 0.4s;
-}
-.menu-text:hover,
-.menu-social-text:hover{
-	font-weight: lighter;
-	opacity: 0.9;
+
+/* width */
+.text-service{
+  max-width: 750px;
 }

@@ -1,29 +1,50 @@
-.menu{
-	width: 40px;
-	height: 40px;
-	margin-right: calc(170px + 30px);/*input + space*/
-	margin-bottom: 0;
-	background-color: white;
-	display: flex;
-	align-items: center;
-	justify-content: center;
+/* background */
+.button-small,
+.button-select,
+.button-back{
+  background-color: $darkred;
 }
-.button-medium{
-	width: 150px;
-	height: 40px;
-	background: lighten(blue,40%);
-	margin: 0 15px;
-	border-radius: 5px;
-	font-size:16px;
-	font-weight: bold;
+/* width */
+.button-small{
+  width:52px;
 }
-.banner-button{
-	width: 190px;
-	height: 60px;
-	background: white;
-	opacity: 0.7;
-	color:transparent;
-	font-size: 24px;
-	border-radius: 5px;
-	font-weight: bold;
+.button-select{
+  width: 100%;
+  max-width:200px;
+}
+.button-back{
+  width: 55px;
+}
+
+/* height */
+.button-small{
+  height:45px;
+}
+.button-select,
+.button-back{
+  height:35px;
+}
+
+/* margin */
+.button-small{
+  margin: 5px;
+  margin-top: 25px;
+}
+.button-back{
+  margin-bottom: 20px;
+}
+
+/* display */
+[class^="button"]{
+  display: flex;
+}
+
+/* justify-content W */
+[class^="button"]{
+  justify-content: center;
+}
+
+/* align-items H */
+[class^="button"]{
+  align-items: center;
 }
